@@ -1,0 +1,136 @@
+.head-txt{
+text-align: center;
+margin-top: 80px;
+margin-bottom: 30px;
+color: #74512D;
+}
+.navbar {
+  background-color: #74512D; 
+  color: #FFFFFF; 
+  padding: 15px; 
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  }
+.navbar a {
+    color: #FFFFFF; 
+    text-decoration: none; 
+    margin: 0 10px;
+  }
+
+  .navbar a:hover {
+    color: #D9C4B0;
+  }
+
+.card{
+
+    background-color: #D9C4B0; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(255, 5, 5, 0.1); 
+    padding: 15px; 
+    height:95% ;
+}
+.card:hover{
+background: #ffffff;
+color: #000000;
+transform: translateY(-10px);
+box-shadow: 0 12px 16px #A67C52 ;
+}
+
+
+.img1{
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.txt1{
+text-align: center;
+    font-size:medium;
+}
+.txt2{
+   color:#74512D ; 
+   font-size:medium;
+}
+
+.h{
+  text-align: center;
+  color: #74512D;
+ margin-top: 140px; 
+
+}
+
+::selection{
+
+background: #74512D;
+color: #ffffff;
+    
+}
+.container h3 {
+  text-align: center;
+  color: #000000;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group textarea {
+  height: 150px;
+}
+
+.form-group input[type="submit"] {
+  background-color: #74512D;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.form-group input[type="submit"]:hover {
+  background-color: #ffffff;
+  color: #a4692d;
+}
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #74512D;
+    border-radius: 4px;
+    resize: vertical;
+    font-size: 16px;
+}  
+.b2{
+
+  background: #b1875f;
+}  
+.h-c{
+
+margin-top: 40px;
+margin-bottom: 50px;
+
+}        
+.pp{
+text-align: center;
+margin-top: 150px;
+
+}
+
+.ppp{text-align: center;
+  margin-top: 310px;
+color:#74512D;
+font-weight: bold;
+
+}
